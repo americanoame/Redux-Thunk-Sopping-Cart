@@ -42,10 +42,28 @@ const cartSlice = createSlice({
             === payload.id);
             cartItem.amount = cartItem.amount - 1;
         },
+
+
+        // we created news variables amount and total then i iterate
+        // over the current cart items and each of them has the amount property
+
+        calculateTotals : (state) => {
+          let amount = 0;
+          let total = 0;
+          state.cartItems.forEach((item) => {
+            amount += item.amount
+            total += item.amount * item.price
+          })
+          state.amount = amount
+          state.total = total
+
+        }
+
+
   },
 });
 
 // console.log(cartSlice);
-export const { clearCart, removeItem, increase, decrease } = cartSlice.actions;
+export const { clearCart, removeItem, increase, decrease, calculateTotals } = cartSlice.actions;
 
 export default cartSlice.reducer;
