@@ -6,5 +6,5 @@
 
 * In this mini project, the user will be able to add products to the cart and delete them with the       options: either using the arrows, removing them, or clearing the cart completely. Additionally, the user will be have a modal window to clear the cart completely.
 
-![Uploading Screenshot 2023-12-08 at 10.32.50 PM.png…]()
+![Screenshot 2023-12-08 at 10 32 50 PM](https://github.com/americanoame/Redux-Thunk-Sopping-Cart/assets/77306236/ea8025ac-7f0a-46d7-8dfa-dbc3c0cb2bab)
 ![Screenshot 2023-12-08 at 10 34 16 PM](https://github.com/americanoame/Redux-Thunk-Sopping-Cart/assets/77306236/a48b7591-60a4-47ae-a425-160e1d2ec6c2)
