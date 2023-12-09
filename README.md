@@ -4,4 +4,7 @@
 * Therefore, we can modify the state directly. 
 * I personally find it much cleaner code, and we don't have to return any state like we do using useReducer.
 
-* In this mini project, the user will be able to add products to the cart and delete them with the       options: either using the arrows, removing them, or clearing the cart completely. Additionally, the user will be able to see the quantity of each product.
+* In this mini project, the user will be able to add products to the cart and delete them with the       options: either using the arrows, removing them, or clearing the cart completely. Additionally, the user will be have a modal window to clear the cart completely.
+
+![Uploading Screenshot 2023-12-08 at 10.32.50 PM.png…]()
+![Screenshot 2023-12-08 at 10 34 16 PM](https://github.com/americanoame/Redux-Thunk-Sopping-Cart/assets/77306236/a48b7591-60a4-47ae-a425-160e1d2ec6c2)
